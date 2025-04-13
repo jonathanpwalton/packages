@@ -1,3 +1,0 @@
-source  http://ftpmirror.gnu.org/wget/wget2-2.2.0.tar.gz
-output  wget2-2.2.0
-build   autoconf-makefile

@@ -1,0 +1,9 @@
+{
+	"gnu": {
+		"1.1": {
+			"source": "http://ftpmirror.gnu.org/spell/spell-1.1.tar.gz",
+			"output": "spell-1.1",
+			"build": "autoconf-makefile"
+		}
+	}
+}

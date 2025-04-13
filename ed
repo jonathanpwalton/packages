@@ -1,0 +1,9 @@
+{
+	"gnu": {
+		"1.21.1": {
+			"source": "https://ftp.wayne.edu/gnu/ed/ed-1.21.1.tar.lz",
+			"output": "ed-1.21.1",
+			"build": "autoconf-makefile"
+		}
+	}
+}
