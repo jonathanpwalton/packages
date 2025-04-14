@@ -2,26 +2,23 @@
 	"zyedidia": {
 		"1.3.4": {
 			"source": "https://github.com/zyedidia/micro/archive/refs/tags/v2.0.14.tar.gz",
-			"build": {
-				"type": "nonroot",
-				"commands": [
-					{
-						"user": "nonroot",
-						"command": [
-							"make",
-							"build"
-						]
-					},
-					{
-						"user": "root",
-						"command": [
-							"cp",
-							"micro",
-							"/usr/local/bin"
-						]
-					}
-				]
-			}
+			"build": [
+				{
+					"user": "root",
+					"command": [
+						"make",
+						"build"
+					]
+				},
+				{
+					"user": "root",
+					"command": [
+						"cp",
+						"micro",
+						"/usr/local/bin"
+					]
+				}
+			]
 		}
 	}
 }
