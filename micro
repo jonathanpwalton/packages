@@ -16,7 +16,7 @@
 						"cp",
 						"-f",
 						"micro",
-						"/usr/local/bin"
+						"@@BINS@@"
 					]
 				}
 			],
@@ -26,7 +26,7 @@
 					"command": [
 						"rm",
 						"-f",
-						"/usr/local/bin/micro"
+						"@@BINS@@/micro"
 					]
 				}
 			]
