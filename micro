@@ -14,8 +14,19 @@
 					"user": "root",
 					"command": [
 						"cp",
+						"-f",
 						"micro",
 						"/usr/local/bin"
+					]
+				}
+			],
+			"drop": [
+				{
+					"user": "root",
+					"command": [
+						"rm",
+						"-f",
+						"/usr/local/bin/micro"
 					]
 				}
 			]
