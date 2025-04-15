@@ -1,4 +1,4 @@
-gnu
--1.21.1
---https://ftp.wayne.edu/gnu/ed/ed-1.21.1.tar.lz
---autoconf-makefile
+p gnu
+v 1.21.1
+s https://ftp.wayne.edu/gnu/ed/ed-1.21.1.tar.lz
+b autoconf-makefile

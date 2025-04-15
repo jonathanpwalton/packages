@@ -1,4 +1,4 @@
-gnu
--1.1
---http://ftpmirror.gnu.org/spell/spell-1.1.tar.gz
---autoconf-makefile
+p gnu
+v 1.1
+s http://ftpmirror.gnu.org/spell/spell-1.1.tar.gz
+b autoconf-makefile
