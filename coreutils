@@ -1,8 +1,4 @@
-{
-	"gnu": {
-		"9.6": {
-			"source": "http://ftpmirror.gnu.org/coreutils/coreutils-9.6.tar.xz",
-			"build": "autoconf-makefile"
-		}
-	}
-}
+gnu
+	9.6
+		http://ftpmirror.gnu.org/coreutils/coreutils-9.6.tar.xz
+		autoconf-makefile

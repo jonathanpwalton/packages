@@ -1,8 +1,4 @@
-{
-	"gnu": {
-		"2.2.0": {
-			"source": "http://ftpmirror.gnu.org/wget/wget2-2.2.0.tar.gz",
-			"build": "autoconf-makefile"
-		}
-	}
-}
+gnu
+	2.2.0
+		http://ftpmirror.gnu.org/wget/wget2-2.2.0.tar.gz
+		autoconf-makefile

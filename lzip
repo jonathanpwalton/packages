@@ -1,8 +1,4 @@
-{
-	"nongnu": {
-		"1.25": {
-			"source": "https://download.savannah.gnu.org/releases/lzip/lzip-1.25.tar.gz",
-			"build": "autoconf-makefile"
-		}
-	}
-}
+nongnu
+	1.25
+		https://download.savannah.gnu.org/releases/lzip/lzip-1.25.tar.gz
+		autoconf-makefile

@@ -1,35 +1,9 @@
-{
-	"zyedidia": {
-		"2.0.14": {
-			"source": "https://github.com/zyedidia/micro/archive/refs/tags/v2.0.14.tar.gz",
-			"build": [
-				{
-					"user": "root",
-					"command": [
-						"make",
-						"build"
-					]
-				},
-				{
-					"user": "root",
-					"command": [
-						"cp",
-						"-f",
-						"micro",
-						"@@BINS@@"
-					]
-				}
-			],
-			"drop": [
-				{
-					"user": "root",
-					"command": [
-						"rm",
-						"-f",
-						"@@BINS@@/micro"
-					]
-				}
-			]
-		}
-	}
-}
+zyedidia
+	2.0.14
+		https://github.com/zyedidia/micro/archive/refs/tags/v2.0.14.tar.gz
+		custom
+			install
+				# make build
+				# cp -f micro "$JPW_BINS"
+			uninstall
+				# rm -f "$JPW_BINS/micro"
