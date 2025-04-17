@@ -2,6 +2,8 @@ zyedidia
 	2.0.14
 		https://github.com/zyedidia/micro/archive/refs/tags/v2.0.14.tar.gz
 		custom
-			# make build
-			# cp -f micro "$JPW_BINS"
-			# rm -f "$JPW_BINS/micro"
+			install
+				# make build
+				# cp -f micro "$JPW_BINS"
+			uninstall
+				# rm -f "$JPW_BINS/micro"
