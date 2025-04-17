@@ -1,7 +1,7 @@
-p zyedidia
-v 2.0.14
-s https://github.com/zyedidia/micro/archive/refs/tags/v2.0.14.tar.gz
-b custom
-i # make build
-i # cp -f micro "$JPW_BINS"
-u # rm -f "$JPW_BINS/micro"
+zyedidia
+	2.0.14
+		https://github.com/zyedidia/micro/archive/refs/tags/v2.0.14.tar.gz
+		custom
+			# make build
+			# cp -f micro "$JPW_BINS"
+			# rm -f "$JPW_BINS/micro"

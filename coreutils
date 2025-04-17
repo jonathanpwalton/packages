@@ -1,4 +1,4 @@
-p gnu
-v 9.6
-s http://ftpmirror.gnu.org/coreutils/coreutils-9.6.tar.xz
-b autoconf-makefile
+gnu
+	9.6
+		http://ftpmirror.gnu.org/coreutils/coreutils-9.6.tar.xz
+		autoconf-makefile
