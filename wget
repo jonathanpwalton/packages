@@ -1,0 +1,4 @@
+gnu
+	1.25.0
+		http://ftpmirror.gnu.org/wget/wget-1.25.0.tar.gz
+		autoconf-makefile
