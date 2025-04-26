@@ -1,3 +1,2 @@
-set -e
 cd ./source/coreutils-9.6
 make uninstall

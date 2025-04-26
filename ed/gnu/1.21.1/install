@@ -1,4 +1,3 @@
-set -e
 cd ./source/ed-1.21.1
 droproot ./configure
 droproot make

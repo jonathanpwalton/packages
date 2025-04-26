@@ -1,3 +1,2 @@
-set -e
 cd ./source/wget-1.25.0
 make uninstall

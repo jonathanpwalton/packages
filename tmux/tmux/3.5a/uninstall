@@ -1,3 +1,2 @@
-set -e
 cd ./source/tmux-3.5a
 make uninstall

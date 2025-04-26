@@ -1,4 +1,3 @@
-set -e
 cd ./source/lzip-1.25
 droproot ./configure
 droproot make

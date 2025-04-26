@@ -1,2 +1,1 @@
-set -e
-rm -f "$1/micro"
+rm -f "$JPW_BINDIR/micro"

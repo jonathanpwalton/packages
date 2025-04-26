@@ -1,4 +1,3 @@
-set -e
 cd ./source/coreutils-9.6
 droproot ./configure
 droproot make
