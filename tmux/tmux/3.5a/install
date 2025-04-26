@@ -1,5 +1,5 @@
 set -e
 cd ./source/tmux-3.5a
-droprootjpw ./configure
-droprootjpw make
+droproot ./configure
+droproot make
 make install

@@ -1,5 +1,5 @@
 set -e
 cd ./source/wget2-2.2.0
-droprootjpw ./configure
-droprootjpw make
+droproot ./configure
+droproot make
 make install

@@ -1,5 +1,5 @@
 set -e
 cd ./source/ed-1.21.1
-droprootjpw ./configure
-droprootjpw make
+droproot ./configure
+droproot make
 make install

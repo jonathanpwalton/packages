@@ -1,5 +1,5 @@
 set -e
 cd ./source/spell-1.1
-droprootjpw ./configure
-droprootjpw make
+droproot ./configure
+droproot make
 make install
