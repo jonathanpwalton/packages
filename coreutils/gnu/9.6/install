@@ -1,3 +1,5 @@
-$ ./configure
-$ make
-# make install
+set -e
+cd ./source/coreutils-9.6
+droprootjpw ./configure
+droprootjpw make
+make install

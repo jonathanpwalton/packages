@@ -1,0 +1,3 @@
+set -e
+cd ./source/wget2-2.2.0
+make uninstall

@@ -1,1 +1,2 @@
-# rm -f "$JPW_BINS/micro"
+set -e
+rm -f "$1/micro"
