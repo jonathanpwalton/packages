@@ -1,2 +1,0 @@
-cd ./source/lzip-1.25
-make uninstall

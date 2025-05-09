@@ -1,3 +1,0 @@
-cd ./source/micro-2.0.14
-make build
-cp -f micro "$JPW_BINDIR"
