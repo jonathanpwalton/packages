@@ -1,4 +1,6 @@
-src tarball https://github.com/zyedidia/micro/archive/refs/tags/v2.0.14.tar.gz 40177579beb3846461036387b649c629395584a4bbe970f61ba7591bd9c0185a
-pre cd micro-2.0.14
-cfg 
-bld cd micro-2.0.14 && make && mkdir -p JPW_DESTDIR/usr/bin && make GOBIN=$(pwd)/JPW_DESTDIR/usr/bin install
+tarball
+https://github.com/zyedidia/micro/archive/refs/tags/v2.0.14.tar.gz
+40177579beb3846461036387b649c629395584a4bbe970f61ba7591bd9c0185a
+cd micro-2.0.14
+ 
+cd micro-2.0.14 && make && mkdir -p JPW_DESTDIR/usr/bin && make GOBIN=$(pwd)/JPW_DESTDIR/usr/bin install

@@ -1,4 +1,6 @@
-src tarball http://ftp.gnu.org/gnu/spell/spell-1.1.tar.gz 7cc243547eb31360ff769835dc88b5ba4f2f47385daa230523beecf9e1c29744
-pre cd spell-1.1
-cfg ./configure --prefix=/usr
-bld make && mkdir JPW_DESTDIR && make DESTDIR=JPW_DESTDIR install
+tarball
+http://ftp.gnu.org/gnu/spell/spell-1.1.tar.gz
+7cc243547eb31360ff769835dc88b5ba4f2f47385daa230523beecf9e1c29744
+cd spell-1.1 &&
+./configure --prefix=/usr
+make && mkdir JPW_DESTDIR && make DESTDIR=JPW_DESTDIR install
