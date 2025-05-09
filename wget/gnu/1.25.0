@@ -3,4 +3,4 @@ http://ftp.gnu.org/gnu/wget/wget-1.25.0.tar.gz
 766e48423e79359ea31e41db9e5c289675947a7fcf2efdcedb726ac9d0da3784
 cd wget-1.25.0
 ./configure --prefix=/usr
-make && mkdir JPW_DESTDIR && make DESTDIR=JPW_DESTDIR install
+make && mkdir JPW_DESTDIR && make DESTDIR="$(pwd)/JPW_DESTDIR" install

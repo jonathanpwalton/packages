@@ -3,4 +3,4 @@ https://ftp.wayne.edu/gnu/ed/ed-1.21.1.tar.lz
 d6d0c7192b02b0519c902a93719053e865ade5a784a3b327d93d888457b23c4b
 cd ed-1.21.1
 ./configure --prefix=/usr
-make && mkdir JPW_DESTDIR && make DESTDIR=JPW_DESTDIR install
+make && mkdir JPW_DESTDIR && make DESTDIR="$(pwd)/JPW_DESTDIR" install
