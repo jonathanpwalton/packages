@@ -2,5 +2,5 @@ tarball
 https://download.savannah.gnu.org/releases/lzip/lzip-1.25.tar.gz
 09418a6d8fb83f5113f5bd856e09703df5d37bae0308c668d0f346e3d3f0a56f
 cd lzip-1.25
-./configure --prefix=/usr
-make && mkdir JPW_DESTDIR && make DESTDIR="$(pwd)/JPW_DESTDIR" install
+./configure --prefix="$(pwd)/JPW_DESTDIR/usr"
+make && mkdir JPW_DESTDIR && make install
