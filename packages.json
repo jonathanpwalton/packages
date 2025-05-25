@@ -9,7 +9,7 @@
           "sha256": "766e48423e79359ea31e41db9e5c289675947a7fcf2efdcedb726ac9d0da3784"
         },
         "configure": "cd wget-1.25.0 && ./configure --prefix=/usr",
-        "build": "cd wget-1.25.0 && make && mkdir JPW_DESTDIR && make install DESTDIR=\"$(pwd)/JPW_DESTDIR\""
+        "build": "cd wget-1.25.0 && make && make install DESTDIR=\"$JPW_DESTDIR\""
       }
     ]
   },
@@ -23,7 +23,7 @@
           "sha256": "2b3b9c85b7fb26d33ca5f41f1f8daca71838d869a19b406063aa5c655294d357"
         },
         "configure": "cd wget2-2.2.0 && ./configure --prefix=/usr",
-        "build": "cd wget2-2.2.0 && make && mkdir JPW_DESTDIR && make install DESTDIR=\"$(pwd)/JPW_DESTDIR\""
+        "build": "cd wget2-2.2.0 && make && make install DESTDIR=\"$JPW_DESTDIR\""
       }
     ]
   },
@@ -37,7 +37,7 @@
           "sha256": "7a0124327b398fd9eb1a6abde583389821422c744ffa10734b24f557610d3283"
         },
         "configure": "cd coreutils-9.6 && ./configure --prefix=/usr",
-        "build": "cd coreutils-9.6 && make && mkdir JPW_DESTDIR && make install DESTDIR=\"$(pwd)/JPW_DESTDIR\""
+        "build": "cd coreutils-9.6 && make && make install DESTDIR=\"$JPW_DESTDIR\""
       },
       {
         "version": "9.7",
@@ -47,7 +47,7 @@
           "sha256": "e8bb26ad0293f9b5a1fc43fb42ba970e312c66ce92c1b0b16713d7500db251bf"
         },
         "configure": "cd coreutils-9.7 &&./configure --prefix=/usr",
-        "build": "cd coreutils-9.7 && make && mkdir JPW_DESTDIR && make install DESTDIR=\"$(pwd)/JPW_DESTDIR\""
+        "build": "cd coreutils-9.7 && make && make install DESTDIR=\"$JPW_DESTDIR\""
       }
     ]
   },
@@ -61,7 +61,7 @@
           "sha256": "09418a6d8fb83f5113f5bd856e09703df5d37bae0308c668d0f346e3d3f0a56f"
         },
         "configure": "cd lzip-1.25 && ./configure --prefix=/usr",
-        "build": "cd lzip-1.25 && make && mkdir JPW_DESTDIR && make install DESTDIR=\"$(pwd)/JPW_DESTDIR\""
+        "build": "cd lzip-1.25 && make && make install DESTDIR=\"$JPW_DESTDIR\""
       }
     ]
   },
@@ -74,7 +74,7 @@
           "url": "https://github.com/zyedidia/micro/archive/refs/tags/v2.0.14.tar.gz",
           "sha256": "40177579beb3846461036387b649c629395584a4bbe970f61ba7591bd9c0185a"
         },
-        "build": "cd micro-2.0.14 && make && mkdir -p JPW_DESTDIR/usr/bin && cp micro JPW_DESTDIR/usr/bin"
+        "build": "cd micro-2.0.14 && make && mkdir -p \"$JPW_DESTDIR/usr/bin\" && cp micro \"$JPW_DESTDIR/usr/bin\""
       }
     ]
   },
@@ -88,7 +88,7 @@
           "sha256": "16216bd0877170dfcc64157085ba9013610b12b082548c7c9542cc0103198951"
         },
         "configure": "cd tmux-3.5a && ./configure --prefix=/usr",
-        "build": "cd tmux-3.5a && make && mkdir JPW_DESTDIR && make install DESTDIR=\"$(pwd)/JPW_DESTDIR\""
+        "build": "cd tmux-3.5a && make && make install DESTDIR=\"$JPW_DESTDIR\""
       }
     ]
   }
