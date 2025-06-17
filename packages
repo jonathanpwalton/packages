@@ -1,6 +1,6 @@
 wget
 1.25.0
-https://ftp.gnu.org/gnu/wget/wget-1.25.0.tar.gz
+https://ftpmirror.gnu.org/gnu/wget/wget-1.25.0.tar.gz
 archive
 766e48423e79359ea31e41db9e5c289675947a7fcf2efdcedb726ac9d0da3784
 5263736
@@ -8,7 +8,7 @@ cd wget-1.25.0 && ./configure --prefix=/usr
 cd wget-1.25.0 && make && make install DESTDIR="$JPW_DESTDIR"
 wget2
 2.2.0
-https://ftp.gnu.org/gnu/wget/wget2-2.2.0.tar.gz
+https://ftpmirror.gnu.org/gnu/wget/wget2-2.2.0.tar.gz
 archive
 2b3b9c85b7fb26d33ca5f41f1f8daca71838d869a19b406063aa5c655294d357
 4094789
@@ -16,7 +16,7 @@ cd wget2-2.2.0 && ./configure --prefix=/usr
 cd wget2-2.2.0 && make && make install DESTDIR="$JPW_DESTDIR"
 coreutils
 9.7
-https://ftp.gnu.org/gnu/coreutils/coreutils-9.7.tar.xz
+https://ftpmirror.gnu.org/gnu/coreutils/coreutils-9.7.tar.xz
 archive
 e8bb26ad0293f9b5a1fc43fb42ba970e312c66ce92c1b0b16713d7500db251bf
 6158960
@@ -24,7 +24,7 @@ cd coreutils-9.7 &&./configure --prefix=/usr
 cd coreutils-9.7 && make && make install DESTDIR="$JPW_DESTDIR"
 coreutils
 9.6
-https://ftp.gnu.org/gnu/coreutils/coreutils-9.6.tar.xz
+https://ftpmirror.gnu.org/gnu/coreutils/coreutils-9.6.tar.xz
 archive
 7a0124327b398fd9eb1a6abde583389821422c744ffa10734b24f557610d3283
 6134764
