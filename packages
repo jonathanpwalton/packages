@@ -44,7 +44,7 @@ https://github.com/zyedidia/micro/archive/refs/tags/v2.0.14.tar.gz
 archive
 40177579beb3846461036387b649c629395584a4bbe970f61ba7591bd9c0185a
 576800
-
+echo 'nothing to do'
 cd micro-2.0.14 && make && mkdir -p "$JPW_DESTDIR/usr/bin" && cp micro "$JPW_DESTDIR/usr/bin"
 tmux
 3.5a
